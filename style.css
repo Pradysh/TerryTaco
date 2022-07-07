@@ -95,9 +95,7 @@ body {
     color: black;
   }
   
-  [aria-controls="menu-list"] {
-    display: none;
-  }
+  
   
   /* Features! */
   
@@ -159,18 +157,11 @@ body {
     background: linear-gradient(to var(--direction, left), yellow, transparent);
   }
   
-  .gallery h2:after {
-    --direction: right;
+  
   }
   
-  @media (max-width: 1000px) {
-    .menu {
-      perspective: 800px;
-    }
-    [aria-controls="menu-list"] {
-      display: block;
-      margin-bottom: 10px;
-    }
+ 
+    
   
     .menu ul {
       max-height: 0;
